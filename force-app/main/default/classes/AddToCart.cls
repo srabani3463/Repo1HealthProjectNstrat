@@ -6,4 +6,7 @@ public with sharing class AddToCart {
         // This the changes i want to make
 
     }
+    Public Static void AddtheCart(){
+    
+    }
 }
