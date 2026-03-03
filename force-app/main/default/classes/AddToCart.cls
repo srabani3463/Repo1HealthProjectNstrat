@@ -9,4 +9,7 @@ public with sharing class AddToCart {
     Public Static void AddtheCart(){
     
     }
+Public Static Void Newadditiontothecart(){
+
+}
 }
