@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+   
+  
+    <types>
+        <members>Book_Details__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Flow_To_Fetch_the_Book_Quanity_For_Agent</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>FirstDifferentMethodApex</members>
+        <name>ApexClass</name>
+    </types>
+    
+    
+   
+ 
+    <version>65.0</version>
+</Package>
