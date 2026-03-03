@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agent_EmailFormat</fullName>
+    <active>true</active>
+    <description>Ensures proper email format</description>
+    <errorConditionFormula>AND(
+  NOT(ISBLANK( Email_c__c )),
+  NOT(REGEX( Email_c__c , &quot;^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$&quot;))
+)</errorConditionFormula>
+    <errorDisplayField>Email_c__c</errorDisplayField>
+    <errorMessage>Please enter a valid email address</errorMessage>
+</ValidationRule>
